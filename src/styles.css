@@ -1,0 +1,38 @@
+.app {
+    width: 1000px;
+    margin: auto;
+}
+.blok {
+    width: 1000px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.gold {
+    color: gold;
+}
+.title {
+    width: 700px;
+    font-size: 18px;
+    font-family: "Franklin Gothic Medium";
+    color: mediumblue;
+}
+.id {
+    font-weight: bold;
+}
+.completed {
+    font-size: 20px;
+}
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+
