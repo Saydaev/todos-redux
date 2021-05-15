@@ -16,7 +16,7 @@ function App() {
             {loading?
                 <div className='loader'>
                     Пожалуйста подождите,<br/>
-                    Данные загружаются...
+                    данные загружаются...
                 </div>
                 : (todos.map((item, index) => {
                     return (
